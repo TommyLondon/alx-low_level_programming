@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * return: Alwys 0 (Success)
+ * return: Always 0 (Success)
  */
 
 int main(void)
