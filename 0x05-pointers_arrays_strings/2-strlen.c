@@ -1,4 +1,4 @@
-#include (min.h)
+#include "min.h"
 
 /**
  * main - check the code
