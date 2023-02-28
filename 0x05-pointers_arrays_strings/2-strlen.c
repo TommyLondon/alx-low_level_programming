@@ -1,16 +1,18 @@
 #include "min.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *_strlen - returns the length of the string
+ *@s: string
+ * Return: length
  */
 void _strlen(char *s)
 {
-	int i = 0;
+	int longi = 0;
 
-	while (s[i])
-	i++;
-
-	return (i);
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	return (longi);
 }
