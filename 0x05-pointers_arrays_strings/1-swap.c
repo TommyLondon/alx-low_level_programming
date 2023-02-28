@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * swap_int - swap viriable value
+ *swap_int - swap the value of two integers
  * @a: pointera
  * @b: pointerb
- * return: void
  */
 
-void swap_int(int *, int *b)
+void swap_int(int *a, int *b)
 {
-	*a += *b;
-	*b = *a - *b;
-	*a = *a - *b;
+	int m;
+
+	m = *a;
+	*a = *b;
+	*b = m;
 }
