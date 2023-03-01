@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *__strncat - concatenates two strings
- *using at most n bytes from src
- *@dest: input value
- *@src: input value
- *@n: input value
+ * __strncat - concatenates two strings
+ * using at most n bytes from src
+ * @dest: input value
+ * @src: input value
+ * @n: input value
  *
  * return dest
  */
