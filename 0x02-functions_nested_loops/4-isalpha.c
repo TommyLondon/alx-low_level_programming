@@ -2,13 +2,11 @@
 
 
 /**
-* main - check the code.
-*
-* Return: Always 0.
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
 */
-int main(void)
+int _isalpha(int c)
 {
-	print_alphabet_x10();
-	return (0);
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
-
