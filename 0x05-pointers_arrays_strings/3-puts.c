@@ -1,18 +1,13 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
-
 void _puts(char *str)
 {
-	int i = 0;
-	while (str[i])
+	while (*str != '\0')
 	{
-		-putchr(str[i]);
-		i++;
+		_putchar(*str++);
 	}
-	_putchar('\n');
+		_putchar('\n');
 }
